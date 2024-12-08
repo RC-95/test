@@ -61,7 +61,7 @@ $(document).ready(function() {
 
     if (recipeId) {
         // Fetch the JSON data
-        $.getJSON('recipes.json', function(recipes) {
+        $.getJSON('recipes_array.json', function(recipes) {
             // Find the recipe by ID
             const recipe = recipes.find(r => r.id === recipeId);
 
