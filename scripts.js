@@ -1,4 +1,3 @@
-//done 
 $(document).ready(function () {
   const $recipesList = $("#recipes-list"); // Select the recipes list container
 
