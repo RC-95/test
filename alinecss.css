@@ -1,0 +1,55 @@
+/* Aline Francisco CSS page - NCIRL - 27/11/2024 - Web Design */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*adding Montserrat font to body, header and footer*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300; /*100 fino e 900 grosso */
+    font-optical-sizing: auto;
+}
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+    width: 100%;
+}
+
+.Signup {
+    background-color: plum;
+    color: black;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Signup {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Signup h3 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+/*override Bootstrap font to Montserrat*/
+.card-title, .p-3, h5, h1, h2, h3, h4, h6, p, a, li, nav-link{
+    font-family: "Montserrat", sans-serif !important;
+}
+.card-title {
+    font-family: "Montserrat", sans-serif !important;
+}
+.container{
+    font-family: "Montserrat", sans-serif !important;   
+}
+
